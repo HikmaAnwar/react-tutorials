@@ -1,4 +1,4 @@
-class car{
+class Car{
     constructor(name){
         this.brand = name;
     }
