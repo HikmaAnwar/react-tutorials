@@ -1,5 +1,5 @@
 // array method 
-import React from 'React';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 const myArray = ['apple','banana','pineapple'];
