@@ -20,3 +20,4 @@ class Model extends Car{
 }
 const mycar = new Model("Ford", "mustang");
 mycar.show();
+
