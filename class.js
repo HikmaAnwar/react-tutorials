@@ -7,5 +7,16 @@ class Car{
     }
 
 }
-const mycar = new Car("Ford");
-mycar.present();
+
+class Model extends Car{
+    constructor(name, mod){
+        super(name);
+        this.model = mod;
+    }
+    show(){
+        return this.present() + ', its a ' + this.model
+    }
+
+}
+const mycar = new Model("Ford", "mustang");
+mycar.show();
